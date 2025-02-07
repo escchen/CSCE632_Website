@@ -1,0 +1,11 @@
+.footer {
+    margin-top: 40px;
+    text-align: center;
+}
+.footer p {
+    display: inline;
+}
+.footer a {
+    text-decoration: none;
+    color: #0073b1;
+}
