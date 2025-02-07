@@ -1,104 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estella's Website</title>
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to Estella's Website</h1>
-        <p>This page demonstrates various HTML features.</p>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estella's Website</title>
+        <link id="style" rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
-    <!-- Navigation Links -->
-    <nav>
-        <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#images">Images</a></li>
-            <li><a href="#table">Table</a></li>
-            <li><a href="#lists">Lists</a></li>
-        </ul>
-    </nav>
+    <body>
+        <header>
+            <h1>Estella Chen</h1>
+        </header>
 
-    <!-- Introduction Section -->
-    <section id="introduction">
-        <h2>Introduction</h2>
-        <p>This is an example of a paragraph that introduces the content of the page. Below, you'll find examples of images, tables, and lists.</p>
-    </section>
-
-    <!-- Images Section -->
-    <section id="images">
-        <h2>Images</h2>
-        <p>Here are two examples of images:</p>
-
-        <!-- Image with semantic meaning -->
         <figure>
             <img src="https://via.placeholder.com/300" alt="Placeholder image of a landscape">
             <figcaption>A beautiful placeholder landscape.</figcaption>
         </figure>
 
-        <!-- Decorative image -->
-        <img src="https://via.placeholder.com/150" alt="" aria-hidden="true">
-    </section>
+        <!-- About Me Section -->
+        <section id="aboutme">
+            <h2>About Me</h2>
+            <p>Hey! I'm Estella, a Master's Computer Science student. </p>
+        </section>
 
-    <!-- Table Section -->
-    <section id="table">
-        <h2>Table</h2>
-        <p>This is a simple non-styled table:</p>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>City</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>John</td>
-                    <td>25</td>
-                    <td>New York</td>
-                </tr>
-                <tr>
-                    <td>Jane</td>
-                    <td>30</td>
-                    <td>Los Angeles</td>
-                </tr>
-                <tr>
-                    <td>Sam</td>
-                    <td>22</td>
-                    <td>Chicago</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+        <!-- Accessibility Interests Section -->
+        <section id="accessibility">
+            <h2>Accessibility Interests</h2>
+            <ul>
+                <li>Interest 1</li>
+                <li>Interest 2</li>
+                <li>Interest 3</li>
+            </ul>
+            
+            <figure>
+                <img src="https://via.placeholder.com/300" alt="Placeholder image of a landscape">
+                <figcaption>A beautiful placeholder landscape.</figcaption>
+            </figure>
+        </section>
 
-    <!-- Lists Section -->
-    <section id="lists">
-        <h2>Lists</h2>
-
-        <!-- Unordered List -->
-        <h3>Unordered List</h3>
-        <ul>
-            <li>Apples</li>
-            <li>Oranges</li>
-            <li>Bananas</li>
-        </ul>
-
-        <!-- Ordered List -->
-        <h3>Ordered List</h3>
-        <ol>
-            <li>Step 1: Open your browser</li>
-            <li>Step 2: Navigate to a website</li>
-            <li>Step 3: Explore the content</li>
-        </ol>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Sample HTML Page. All rights reserved.</p>
-    </footer>
-</body>
+        <!-- Contact Me Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name" required><br>
+                E-mail:<br>
+                <input type="email" name="mail" required><br>
+                Comment:<br>
+                <input type="text" name="comment" size="50" required><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </body>
 </html>
