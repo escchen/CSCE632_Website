@@ -1,3 +1,90 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-image: url("images/backgroundBright.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: burlywood;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.normal-text {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 10px 70px;
+    text-align: justify;
+}
+
+.circle-image {
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: auto;
+}
+
+.square-image {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 4rem;
+    color: darkslateblue;
+    font-family: Bahnschrift;
+    margin-top: 50px;
+}
+
+.header-text {
+    /* margin-top: 30px; */
+    /* text-align: left; */
+    font-size: 2rem;
+    font-family: Bahnschrift;
+    /* padding: 70px; */
+    color: darkslateblue;
+}
+
+.page-container {
+    max-width: 900px;
+    /* background: white; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #5a5ea6;
+}
+
 .footer {
     margin-top: 40px;
     text-align: center;

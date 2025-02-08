@@ -9,53 +9,54 @@
     </head>
 
     <body>
-        <header>
-            <h1>Estella Chen</h1>
-        </header>
+        <div class="page-container">
+            <header>
+                <h1 class="title">Estella Chen</h1>
+            </header>
 
-        <img src="/images/photoofme.jpg" alt="Headshot of Estella Chen.">
+            <div class="content-container">
+                <img src="/images/photoofme.jpg" class="circle-image" alt="Headshot of Estella Chen.">
+            </div>
 
+            <!-- About Me Section -->
+            <section id="aboutme">
+                <h2 class="header-text">About Me</h2>
+                <p class="normal-text">Hey! I'm Estella, a Master's Computer Science student. I completed my Bachelor's degree in Computer 
+                    Science at Texas A&M in December 2023. My general interests include reading and video games. At the moment, 
+                    I am reading <em>Babel</em> by R.F. Kuang and playing <em>Hades 2</em>, <em>Spiritfarer</em>, and <em>Persona 3 Reload</em>.</p>
+            </section>
 
-        <!-- About Me Section -->
-        <section id="aboutme">
-            <h2>About Me</h2>
-            <p>Hey! I'm Estella, a Master's Computer Science student. I completed my Bachelor's degree in Computer 
-                Science at Texas A&M in December 2023. My general interests include reading and video games. At the moment, 
-                I am reading Babel by R.F. Kuang and playing Hades 2, Spiritfarer, and Persona 3 Reload.</p>
-        </section>
+            <!-- Accessibility Interests Section -->
+            <section id="accessibility">
+                <h2 class="header-text">Accessibility Interests</h2>
+                <ul class="normal-text">
+                    <li>Assistive keyboards</li>
+                    <li>Screen magnifiers</li>
+                    <li>Refreshable braille display</li>
+                </ul>
+                <img src="/images/braille.jpg" class="square-image" alt="Refreshable braille display example.">
+            </section>
 
-        <!-- Accessibility Interests Section -->
-        <section id="accessibility">
-            <h2>Accessibility Interests</h2>
-            <ul>
-                <li>Assistive keyboards</li>
-                <li>Screen magnifiers</li>
-                <li>Refreshable braille display</li>
-            </ul>
-            
-            <img src="/images/braille.jpg" alt="Refreshable braille display example.">
+            <!-- Contact Me Section -->
+            <section id="contact">
+                <h2 class="header-text">Contact Me</h2>
+                <form action="mailto:estellachen@tamu.edu" method="post" enctype="text/plain">
+                    <label>Name:</label>
+                    <input type="text" name="name" required><br>
+                    <label>Email:</label>
+                    <input type="email" name="mail" required><br>
+                    <label>Comment:</label>
+                    <textarea name="comment" rows="4" required></textarea><br>
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
 
-        </section>
-
-        <!-- Contact Me Section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form action="mailto:estellachen@tamu.edu" method="post" enctype="text/plain">
-                Name:<br>
-                <input type="text" name="name" required><br>
-                E-mail:<br>
-                <input type="email" name="mail" required><br>
-                Comment:<br>
-                <input type="text" name="comment" size="50" required><br><br>
-                <input type="submit" value="Send">
-                <input type="reset" value="Reset">
-            </form>
-        </section>
-
-        <div class="footer">
-            <p>Connect with me on </p>
-            <a href="https://www.linkedin.com/in/estella-ch/" target="_blank">LinkedIn</a> or
-            <a href="https://github.com/escchen" target="_blank">Github</a>
-        </div>
-    </body>
+            <div class="footer">
+                <p>Connect with me on </p>
+                <a href="https://www.linkedin.com/in/estella-ch/" target="_blank">LinkedIn</a> or
+                <a href="https://github.com/escchen" target="_blank">Github</a>
+            </div>
+        </body>
+    </div>
 </html>
